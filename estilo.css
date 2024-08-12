@@ -1,0 +1,29 @@
+*{      /* Reseteo CSS */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(6, 44, 44);
+}
+.h1Class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legendClass{
+    font-weight: bold;
+}
+.formClass{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    background-color:rgb(220, 255, 242);
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90% ;
+    box-shadow: 0 0 10px;
+    margin: 20px;
+  }
